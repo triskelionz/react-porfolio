@@ -1,0 +1,57 @@
+.education{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading-edu{
+    font-size: 40px ;
+    margin-bottom: 120px;
+    text-align: center;  
+}
+
+.education-content{
+    display: flex;
+    text-align:center;
+    margin-top: 70px;
+   
+
+    
+}
+
+.education-content:hover{
+    color: #9ba4ab;
+}
+
+
+.education-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #f2f4f5;
+    z-index: -1;
+    transition: .5s;
+}
+
+
+
+
+.education-content h3{
+    font-size: 2.6rem;
+
+}
+.education-content h4{
+    font-size: 1.2rem;
+}
+
+.education-content h5{
+    font-size: 1rem;
+}
+
+
